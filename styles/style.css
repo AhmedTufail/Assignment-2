@@ -74,7 +74,10 @@ nav li a{
 .header-banner-description{
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-bottom: 4rem;
 }
 .header-banner-inputs{
     display: flex;
@@ -83,16 +86,56 @@ nav li a{
     align-items: center;
     gap: 1.5rem;
     border-radius: 5px;
-    background: #e7d7d7;
- 
-    
+    background: #e7d7d794;
 }
 .header-banner-inputs input{
-    padding: 0.5rem;
+    padding: 1.5rem;
     border-radius: 5px;
     border: none;
-    background: #ffffff;
+    /* background: #ffffff; */
     
 }
 /* header-banner section style ends here  */
 /* header style ends here */
+/* main section starts here */
+main{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+/* popular tours section styles start here */
+.popular-tours-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5rem;
+    margin: 100px 0;
+}
+.popular-tours-title{
+color: #131318;
+font-size:2rem;
+font-weight: 800;
+margin-bottom: 1.5rem;
+}
+.popular-tour-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 1.5rem;
+}
+.popular-tours-list{
+    color: rgba(19, 19, 24, 0.70);
+    margin-left: 2rem;
+    line-height: 2rem;
+    margin-bottom: 3.6rem;
+}
+.btn-primary{
+    background-color: #FF5400;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+/* popular tours section styles end here */
+/* main section ends here */
