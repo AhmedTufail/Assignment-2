@@ -18,11 +18,14 @@ body{
 
 /* header style starts here */
 header{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+.nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px;
-    margin: 50px auto;
+    margin-bottom: 50px;
 }
 .header-logo{
     display: flex;
@@ -38,7 +41,6 @@ header{
 
 nav ul{
     display: flex
-    
 }
 nav ul li{
     margin-left:30px;
@@ -49,4 +51,48 @@ nav li a{
     font-size: 18px;
     font-weight: 400;
 }
+/* header-banner section style starts here  */
+.header-banner{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.header-banner img{
+    max-width: 100%;
+}
+.header-banner-contents{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+.header-banner-title{
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.header-banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.header-banner-inputs{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 5px;
+    background: #e7d7d7;
+ 
+    
+}
+.header-banner-inputs input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background: #ffffff;
+    
+}
+/* header-banner section style ends here  */
 /* header style ends here */
