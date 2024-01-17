@@ -102,12 +102,11 @@ nav li a{
     border-radius: 5px;
     background: #e7d7d794;
 }
+
 .header-banner-inputs input{
     padding: 1.5rem;
     border-radius: 5px;
     border: none;
-    /* background: #ffffff; */
-    
 }
 /* header-banner section style ends here  */
 /* header style ends here */
@@ -195,11 +194,11 @@ margin-bottom: 1.5rem;
     margin: 20px 0;
     width: 500px;
 }
-.grid-row-1-top-left,.grid-row-1-top-right,.grid-row-2-mid-left,.grid-row-2-mid-center,.grid-row-2-mid-right,.grid-row-3-bottom-left,.grid-row-3-bottom-right img{
+/* .grid-row-1-top-left,.grid-row-1-top-right,.grid-row-2-mid-left,.grid-row-2-mid-center,.grid-row-2-mid-right,.grid-row-3-bottom-left,.grid-row-3-bottom-right img{
     /* max-width: 100%; */
     /* min-height: 100%; */
 
-}
+/* } */ 
 
 
 
@@ -237,8 +236,8 @@ margin-bottom: 1.5rem;
     height: 284px;
     flex-shrink: 0;
     border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
 .why-choose-us-card-bottom{
     padding: 4rem;
@@ -333,8 +332,6 @@ background: rgba(41, 206, 246, 0.05);
     justify-content: center;
     align-items: center;
     gap: 6rem;
-    
-    
 }
 .newsletter-inputs{
     border-radius: 8px;
@@ -396,3 +393,172 @@ background: rgba(41, 206, 246, 0.05);
     margin-top: 20px;
 }
 /* footer styles end here */
+
+
+/* Responsive mobile design here */
+.hide{
+    display: none;
+}
+
+@media  screen and (max-width:600px) {
+    /* nav section styles start here */
+    .nav-section{
+        flex-direction: column;
+    }
+    /* nav section styles end here */
+    /* header-banner section styles here */
+    .header-banner{
+        margin: 0 20px;
+    }
+    .header-banner img{
+        min-height: 500px;
+    }
+    .header-banner-title{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .header-banner-description{
+        max-width: 400px;
+    }
+    .header-banner-inputs{
+        flex-direction: column;
+    }
+    .header-banner-inputs input{
+        padding: .5rem;
+        border-radius: 5px;
+        border: none;
+    }
+    /* header-banner section styles end here */
+    /* main section styles here */
+    .popular-tours-section, .get-lost-section{
+        flex-direction: column;
+        margin: 0 20px;
+        width: 400px;
+    }
+    .popular-tours-img img{
+        max-width: 100%;
+        width: 400px;
+        margin-left: 20px;
+    }
+    .choose-destination-description, .why-choose-us-description,.deals-and-discount-description{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        width: 450px;
+        margin: 0 20px;
+    }
+    .choose-destination-section{
+        align-items: center;
+    }
+    .choose-destination-images-container{
+        max-width: 100%;
+        width: 500px;
+        
+    }
+    .choose-destination-grid-row-1{
+        flex-direction: column;
+    }
+    
+    .grid-row-1-top-left img{
+        width: 400px;
+    }
+    .grid-row-1-top-right img{
+        width: 400px;
+        
+    }
+    .grid-row-2-mid-left img{
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .grid-row-2-mid-center img{
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .grid-row-2-mid-right img{
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .grid-row-3-bottom-left img{
+        width: 400px;
+        height: 250px;
+    }
+    .grid-row-3-bottom-right img{
+        width: 400px;
+        height: 250px;
+    }
+    .choose-destination-grid-row-2{
+        flex-direction: column;
+    }
+    .choose-destination-grid-row-3{
+        flex-direction: column;
+    }
+    
+    .why-choose-us-card{
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
+    }
+    .why-choose-us-card-left,.why-choose-us-card-right,.why-choose-us-card-bottom{
+        padding: 2rem;
+        width: 400px;
+        height: 250px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+
+    .deals-and-discount-card-1 img{
+        width: 450px;
+        min-height: 400px;
+        margin: 20px;
+    }
+    .deals-and-discount-card-2 img{
+        width: 450px;
+        min-height: 400px;
+        margin: 20px;
+    }
+    .deals-and-discount-card-1-text, .deals-and-discount-card-2-text, .deals-and-discount-card-3-text{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding:.5rem 1rem;
+        width: 350px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.762);
+    }
+
+    .deals-card-btn{
+        margin-top: 1.5rem;
+        margin-left: 150px;
+        
+    }
+
+    .newsletter{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .newsletter-img{
+        width: 450px;
+    }
+    .footer{
+        background: rgba(19, 19, 24, 0.05);
+        padding: 20px 100px;
+    }
+    .footer-icons{
+        margin-left: 120px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .copy-right{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+
+
+
+}
