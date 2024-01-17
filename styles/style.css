@@ -377,3 +377,22 @@ background: rgba(41, 206, 246, 0.05);
 /* newsletter section styles end here */
 
 /* main section ends here */
+
+/* footer styles start here */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 300px;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-icons{
+    margin-left: 360px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copy-right{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+/* footer styles end here */
