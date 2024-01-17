@@ -104,9 +104,19 @@ nav li a{
 }
 
 .header-banner-inputs input{
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 5px;
     border: none;
+}
+.banner-btn{
+    color: #FFF;
+    font-size: 10px;
+    padding: 10px 55px;
+    background: #FF5400;
+    border: none;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
 }
 /* header-banner section style ends here  */
 /* header style ends here */
