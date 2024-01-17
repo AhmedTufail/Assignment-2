@@ -152,14 +152,14 @@ margin-bottom: 1.5rem;
 /* popular tours section styles end here */
 
 /* choose your destination section starts here */
-.choose-destination-title{
+.choose-destination-title,.why-choose-us-title{
     color: #131318;
     font-size:2rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
     text-align: center;
 }
-.choose-destination-description{
+.choose-destination-description, .why-choose-us-description{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -202,4 +202,39 @@ margin-bottom: 1.5rem;
     gap: 20px;
 }
 /* choose your destination section ends here */
+
+/* why choose us section styles start here */
+.why-choose-us-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+}
+.why-choose-us-card-left{
+    padding: 4rem;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.why-choose-us-card-right{
+    padding: 4rem;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.why-choose-us-card-bottom{
+    padding: 4rem;
+    margin: 0 auto;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+/* why choose us section styles end here */
 /* main section ends here */
