@@ -13,6 +13,7 @@ body{
 /* Shared styles here */
 .text-orange{
     color: #FF5400;
+    font-weight: 800;
 }
 /* choose destination shared styles start here */
 .grid-row-1-top-left, .grid-row-1-top-right,.grid-row-2-mid-left, .grid-row-2-mid-center,.grid-row-2-mid-right,.grid-row-3-bottom-left,.grid-row-3-bottom-right{
@@ -152,14 +153,14 @@ margin-bottom: 1.5rem;
 /* popular tours section styles end here */
 
 /* choose your destination section starts here */
-.choose-destination-title,.why-choose-us-title{
+.choose-destination-title,.why-choose-us-title, .deals-and-discount-title{
     color: #131318;
     font-size:2rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
     text-align: center;
 }
-.choose-destination-description, .why-choose-us-description{
+.choose-destination-description, .why-choose-us-description,.deals-and-discount-description{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -179,13 +180,25 @@ margin-bottom: 1.5rem;
     /* padding-right: 300px; */
     /* margin-right: 100px; */
     /* height: 300px; */
+    /* max-width: 100%; */
+    /* min-height: 300px; */
     
+}
+.choose-destination-images-container{
+    max-width: 100%;
+    width: 500px;
 }
 .choose-destination-grid-row-1{
     display: flex;
     flex: 1;
     gap: 20px;
     margin: 20px 0;
+    width: 500px;
+}
+.grid-row-1-top-left,.grid-row-1-top-right,.grid-row-2-mid-left,.grid-row-2-mid-center,.grid-row-2-mid-right,.grid-row-3-bottom-left,.grid-row-3-bottom-right img{
+    /* max-width: 100%; */
+    /* min-height: 100%; */
+
 }
 
 
@@ -230,6 +243,7 @@ background: rgba(41, 206, 246, 0.05);
 .why-choose-us-card-bottom{
     padding: 4rem;
     margin: 0 auto;
+    margin-bottom: 20px;
     width: 573px;
     height: 284px;
     border-radius: 16px;
@@ -237,4 +251,69 @@ background: rgba(41, 206, 246, 0.05);
     background: rgba(233, 68, 68, 0.05);
 }
 /* why choose us section styles end here */
+
+
+/* deals and discounts section styles start here */
+.deals-and-discount{
+    margin: 50px 0;
+}
+/* deals and discounts card 1 styles start here */
+.deals-and-discount-card-1{
+    position: relative;
+    text-align:left;
+    color: #242323;
+}
+.deals-and-discount-card-1 img{
+    margin-top: 30px;
+    max-width: 100%;
+}
+.deals-and-discount-card-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals-and-discount-card-1-text{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-30%,-80%);
+    padding:3rem 3rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.762);
+}
+.deals-card-title{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.deals-card-description{
+    margin: 1rem 0;
+}
+/* deals and discounts card 1 styles end here */
+/* deals and discounts card 2 styles start here */
+.deals-and-discount-card-2{
+    position: relative;
+    text-align:left;
+    color: #242323;
+}
+.deals-and-discount-card-2 img{
+    margin-top: 30px;
+    max-width: 100%;
+}
+.deals-and-discount-card-2-text{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-30%,-80%);
+    padding:3rem 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.762);
+}
+.deals-card-btn{
+    margin-top: 1.5rem;
+    margin-left: 450px;
+    
+}
+/* deals and discounts section styles end here */
+
+
 /* main section ends here */
